@@ -57,7 +57,7 @@ docker ps -a
 7. Inicializamos la base de datos con el archivo _nnmanager-bd.pgsql_ desde la ubicación del archivos, hacemos el comando reemplazando _ID_IMAGEN_POSTGRES_ por los caracteres del ID:
 
 ```
-sudo docker exec -i ID_IMAGEN_POSTGRES psql -U nnmanager nnmanager < nnmanager-bd.pgsql
+docker exec -i ID_IMAGEN_POSTGRES psql -U nnmanager nnmanager < nnmanager-bd.pgsql
 ```
 
 ## SHELL PSQL
