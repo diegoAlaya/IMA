@@ -86,12 +86,6 @@ Listar tablas:
 \dt
 ```
 
-Listar tablas:
-
-```
-\dt
-```
-
 QUery ejemplo:
 ```
 SELECT * FROM usuarios;
