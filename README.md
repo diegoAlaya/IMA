@@ -111,3 +111,9 @@ DROP DATABASE DATA_BASE_NAME;
 ```
 CREATE DATABASE DATA_BASE_NAME;
 ```
+
+## Docker
+Limpiar y volver a levantar imagenes
+```
+docker-compose build ima-core
+```
